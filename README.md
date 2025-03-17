@@ -50,7 +50,7 @@ npm install
 -   Active le **hot reload** (le navigateur se met à jour automatiquement dès qu’on modifie le code).
 -   Exécute en temps réel **ESLint** pour signaler les éventuelles erreurs de code.
 - 
- ### 3.2 Build de productio
+ ### 3.2 Build de production
  ```bash
  npm run prod
  ```
