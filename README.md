@@ -91,8 +91,8 @@ Les commentaires JSDoc dans src/ seront convertis en pages HTML consultables via
  ┃   ┣━ __tests__/      # Tests unitaires Jest
  ┃   ┗━ styles/
  ┃       ┗━ main.scss   # Fichier Sass principal
- ┣━ .babelrc            # Config Babel (preset-env, preset-react)
- ┣━ .eslintrc.js        # Config ESLint (règles Airbnb, etc.)
+ ┣━ babel.config.json   # Config Babel (preset-env, preset-react)
+ ┣━ eslint.config.js    # Config ESLint (règles Airbnb, etc.)
  ┣━ commitlint.config.js # Config commitlint pour la convention de commits
  ┣━ jsdoc.config.json   # Config JSDoc
  ┣━ webpack.config.js   # Config Webpack (entry, output, loaders, devServer)
