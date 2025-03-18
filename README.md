@@ -85,10 +85,15 @@ Les commentaires JSDoc dans src/ seront convertis en pages HTML consultables via
  mon-projet/
  ┣━ dist/               # Dossier de build (prod)
  ┣━ docs/               # Documentation générée par JSDoc
+ ┣━ __tests__/          # Tests unitaires Jest
+ ┃   ┣━ app.test.js     # Tests unitaires Jest
+ ┣━ coverage/             
+ ┣━ .eslintignore/      # Ignore fichier/dossier pour ESLINT
+ ┣━ node_modules/ 
  ┣━ src/
  ┃   ┣━ index.js        # Point d'entrée (React, Sass, etc.)
  ┃   ┣━ App.js          # Composant principal (exemple)
- ┃   ┣━ __tests__/      # Tests unitaires Jest
+ ┃   ┣━ utile.js        # Code test Documentation
  ┃   ┗━ styles/
  ┃       ┗━ main.scss   # Fichier Sass principal
  ┣━ babel.config.json   # Config Babel (preset-env, preset-react)
