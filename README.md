@@ -89,7 +89,7 @@ Les commentaires JSDoc dans src/ seront convertis en pages HTML consultables via
  ┃   ┣━ app.test.js     # Tests unitaires Jest
  ┣━ coverage/             
  ┣━ .eslintignore/      # Ignore fichier/dossier pour ESLINT
- ┣━ node_modules/ 
+ ┣━ node_modules/       # Stocker toutes les dépendances (librairies, frameworks, etc.)
  ┣━ src/
  ┃   ┣━ index.js        # Point d'entrée (React, Sass, etc.)
  ┃   ┣━ App.js          # Composant principal (exemple)
